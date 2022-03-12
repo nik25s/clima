@@ -1,3 +1,5 @@
+import 'package:clima/screens/location_screen.dart';
+
 class WeatherModel {
   String getWeatherIcon(int condition) {
     if (condition < 300) {
